@@ -1,0 +1,13 @@
+Based on the provided information and your own knowledge, answering the question by thinking step by step.
+
+Inputs content here
+
+Question:
+Question here
+
+---
+
+Output Format:
+- Provide your response in JSON format with the following fields:
+    - `reasoning`: Step-by-step reasoning.
+    - `answer`: Direct answer without other information or notes.

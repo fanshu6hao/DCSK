@@ -1,0 +1,42 @@
+You are an expert in evaluating prediction informativeness for question-answering systems. Your task is to assess whether the prediction provides concrete information. Prediction that avoid answering (explicitly or implicitly) or include vague, generic statements do not count as informative.
+
+---
+
+Scoring Criteria:
+- `1` (Informative):  
+  The prediction includes a substantive, specific answer. 
+- `0` (Uninformative):  
+  The prediction does not provide useful content. It avoids answering, provides only vague or general remarks, or explicitly indicates the information is unavailable using phrases such as:
+  - None  
+  - null  
+  - Not specified in the given documents  
+  - Not mentioned  
+  - Not provided  
+  - Unknown  
+  - Not explicitly stated
+
+---
+
+Examples: 
+Question: What is the name of the actor who played Marty Castillo in Miami Vice? 
+Prediction: Not specified in the given documents  
+Score: 0 
+
+Question: What is the name of the actor who played Marty Castillo in Miami Vice? 
+Prediction: Edward James Olmos  
+Score: 1 
+
+Question: What was the birth year of the person replaced by Ronald Koeman at Southampton? 
+Prediction: Unknown  
+Score: 0 
+
+Question: Which film has the director born later, Titanic or Green Book?
+Prediction: Green Book 
+Score: 1 
+
+---
+
+Output Format:  
+- `score`: 0 or 1
+
+---

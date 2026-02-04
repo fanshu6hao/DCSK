@@ -1,0 +1,63 @@
+Examples:  
+
+Question 1:  
+What is the length of the river into which Pack Creek runs after it goes through the Spanish Valley?  
+
+Output:  
+```json
+{
+  "Objects": [
+    "Pack Creek",
+    "Spanish Valley",
+    "river into which Pack Creek runs",
+    "length of the river"
+  ],
+  "Contextual Links": [
+    "Step 1: Identify Pack Creek and its path through Spanish Valley.",
+    "Step 2: Determine the river into which Pack Creek runs after passing through Spanish Valley.",
+    "Step 3: Locate the length of the identified river."
+  ]
+}
+```  
+
+Question 2:  
+Baraki Barak District is situated in the western part of a province whose capital is what?  
+
+Output:  
+```json
+{
+  "Objects": [
+    "Baraki Barak District",
+    "province in which Baraki Barak is situated",
+    "capital of the province"
+  ],
+  "Contextual Links": [
+    "Step 1: Locate Baraki Barak District and identify its corresponding province.",
+    "Step 2: Identify the capital city of the identified province."
+  ]
+}
+```  
+
+Question 3:  
+Which album did the band Kraftwerk release after their successful album which reached number 25 on the US 'Billboard' Hot 100 chart?  
+
+Output:  
+```json
+{
+  "Objects": [
+    "Kraftwerk",
+    "successful album reaching number 25 on the US 'Billboard' Hot 100 chart",
+    "album released after the successful album"
+  ],
+  "Contextual Links": [
+    "Step 1: Identify the successful album by Kraftwerk that reached number 25 on the US 'Billboard' Hot 100 chart.",
+    "Step 2: Determine the album released by Kraftwerk following the successful album."
+  ]
+}
+```  
+
+---
+
+Now, apply this method to the following question:
+
+Question:

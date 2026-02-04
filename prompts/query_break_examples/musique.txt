@@ -1,0 +1,62 @@
+Examples:  
+
+Question 1:  
+What is the river that the Kettle Generating Station is located on a tributary of?  
+
+Output:  
+```json
+{
+  "Objects": [
+    "Kettle Generating Station",
+    "tributary where the Kettle Generating Station is located",
+    "main river connected to the tributary"
+  ],
+  "Contextual Links": [
+    "Step 1: Identify the tributary where the Kettle Generating Station is located.",
+    "Step 2: Determine the main river that the identified tributary flows into."
+  ]
+}
+```  
+
+Question 2:  
+How many mandatory transmitters of the owner and operator of most CBC TV stations were updated before the deadline?  
+
+Output:  
+```json
+{
+  "Objects": [
+    "mandatory transmitters",
+    "owner and operator of most CBC TV stations",
+    "update deadline"
+  ],
+  "Contextual Links": [
+    "Step 1: Identify the mandatory transmitters of the CBC TV stations.",
+    "Step 2: Determine which of these transmitters were updated.",
+    "Step 3: Calculate how many transmitters were updated before the deadline."
+  ]
+}
+```  
+
+Question 3:  
+Who was the father of the person who issued the Tamworth manifesto?  
+
+Output:  
+```json
+{
+  "Objects": [
+    "Tamworth manifesto",
+    "person who issued the Tamworth manifesto",
+    "father of the manifesto issuer"
+  ],
+  "Contextual Links": [
+    "Step 1: Identify the person who issued the Tamworth manifesto.",
+    "Step 2: Determine the father of the identified person."
+  ]
+}
+```  
+
+---
+
+Now, apply this method to the following question:
+
+Question:

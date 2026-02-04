@@ -1,0 +1,64 @@
+Examples:  
+
+Question 1:  
+What is the mascot of the college where Pritsak taught in the 1960s before moving to Harvard?  
+
+Output:  
+```json
+{
+  "Objects": [
+    "Pritsak",
+    "college where Pritsak taught in the 1960s",
+    "mascot of the college",
+    "Harvard (destination)"
+  ],
+  "Contextual Links": [
+    "Step 1: Identify the college where Pritsak taught during the 1960s.",
+    "Step 2: Determine the mascot associated with the identified college."
+  ]
+}
+```  
+
+Question 2:  
+How many years before Ivan Gošnjak attended the school in Moscow in 1935 was the school founded?  
+
+Output:  
+```json
+{
+  "Objects": [
+    "Ivan Gošnjak",
+    "school in Moscow",
+    "year 1935 (attendance year)",
+    "school's founding year"
+  ],
+  "Contextual Links": [
+    "Step 1: Determine the year the school in Moscow was founded.",
+    "Step 2: Calculate the difference in years between the founding year and 1935."
+  ]
+}
+```  
+
+Question 3:  
+Which of the Kings that reigned during temple restoration was the youngest when beginning his reign?  
+
+Output:  
+```json
+{
+  "Objects": [
+    "Kings who reigned during temple restoration",
+    "temple restoration period",
+    "age of each king at the beginning of their reign"
+  ],
+  "Contextual Links": [
+    "Step 1: Identify the kings who reigned during the period of temple restoration.",
+    "Step 2: Determine the age of each king when they began their reign.",
+    "Step 3: Compare the ages to find the youngest king."
+  ]
+}
+```  
+
+---
+
+Now, apply this method to the following question:
+
+Question:

@@ -1,0 +1,67 @@
+Examples:
+
+Question 1:
+Who was born first, Mary Lou Marzian or Charles Gonthier, Prince Of Schwarzburg-Sondershausen?
+
+Output:
+```json
+{
+  "Objects": [
+    "Mary Lou Marzian",
+    "Charles Gonthier, Prince Of Schwarzburg-Sondershausen",
+    "birth dates of both individuals"
+  ],
+  "Contextual Links": [
+    "Step 1: Identify Mary Lou Marzian's birth date.",
+    "Step 2: Identify Charles Gonthier's birth date.",
+    "Step 3: Compare the two birth dates to determine who was born earlier."
+  ]
+}
+```
+
+---
+
+Question 2:
+Where was the place of death of Alessandro Ruspoli, 2Nd Prince Of Cerveteri's father?
+
+Output:
+```json
+{
+  "Objects": [
+    "Alessandro Ruspoli, 2Nd Prince Of Cerveteri",
+    "father of Alessandro Ruspoli",
+    "place of death of Alessandro Ruspoli's father"
+  ],
+  "Contextual Links": [
+    "Step 1: Identify who is the father of Alessandro Ruspoli, 2Nd Prince Of Cerveteri.",
+    "Step 2: Locate the place where Alessandro Ruspoli's father died."
+  ]
+}
+```
+
+---
+
+Question 3:
+Which film was released more recently, The Black Duke or Avalalpam Vaikippoyi?
+
+Output:
+```json
+{
+  "Objects": [
+    "The Black Duke",
+    "Avalalpam Vaikippoyi",
+    "release dates of both films"
+  ],
+  "Contextual Links": [
+    "Step 1: Identify The Black Duke in the context and locate its release date.",
+    "Step 2: Identify Avalalpam Vaikippoyi in the context and locate its release date.",
+    "Step 3: Compare the two release dates to determine which film was released more recently."
+  ]
+}
+```
+
+---
+
+Now, apply this method to the following question:
+
+Question:
